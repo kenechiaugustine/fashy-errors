@@ -21,6 +21,10 @@
     "Express",
     "Typescript"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kenechiaugustine/fashy-errors.git"
+  },
   "author": "Kenechukwu Arionye",
   "license": "ISC",
   "devDependencies": {
