@@ -1,16 +1,27 @@
 {
   "name": "fashy-errors",
   "version": "0.0.1",
-  "description": "",
-  "main": "index.js",
+  "description": "A simple npm package to handle errors",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
     "test": "jest --config jestconfig.json",
     "build": "tsc",
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
-    "lint": "tslint -p tsconfig.json"
+    "lint": "tslint -p tsconfig.json",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm test && npm run lint",
+    "preversion": "npm run lint",
+    "version": "npm run format && git add -A src",
+    "postversion": "git push && git push --tags"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "Errors",
+    "Middleware",
+    "Express",
+    "Typescript"
+  ],
+  "author": "Kenechukwu Arionye",
   "license": "ISC",
   "devDependencies": {
     "@types/jest": "^29.4.0",
