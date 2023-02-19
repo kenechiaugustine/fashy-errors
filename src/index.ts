@@ -22,7 +22,6 @@ const sendError: ErrorRequestHandler = (err: CustomError, req: Request, res: Res
     });
   }
 
-  console.log(err);
   return res.status(500).json({
     status: err.status,
     message: 'Something went very wrong!!!',
