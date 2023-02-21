@@ -1,7 +1,7 @@
 {
   "name": "fashy-errors",
   "version": "0.0.2",
-  "description": "A simple npm package to handle errors",
+  "description": "An npm package designed to streamline error handling in Node.js/Express Applications.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
@@ -17,8 +17,11 @@
   },
   "keywords": [
     "Errors",
+    "Error handler",
     "Middleware",
     "Express",
+    "Nodejs",
+    "Javascript",
     "Typescript"
   ],
   "repository": {
@@ -26,7 +29,7 @@
     "url": "https://github.com/kenechiaugustine/fashy-errors.git"
   },
   "author": "Kenechukwu Arionye",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@types/express": "^4.17.17",
     "@types/jest": "^29.4.0",
