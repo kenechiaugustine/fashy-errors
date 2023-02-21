@@ -1,6 +1,6 @@
 {
   "name": "fashy-errors",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "An npm package designed to streamline error handling in Node.js/Express Applications.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
